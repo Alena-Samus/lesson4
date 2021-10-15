@@ -1,51 +1,16 @@
-h1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 150%;
-  font-weight: bold;
-  text-align: center;
-  background-color: white;
-  margin: 10px 25px;
-  color: #25a561
+.table1{
+  width: 800px;
+  background-color: #69f;
+  margin: 0 auto;
 }
 
-h2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.3em;
-  font-weight: bolder;
-  text-align: center;
-  letter-spacing: 1.1pt;
-  color: black;
+.table2{
+  width: 800px;
+  margin: 0 auto;
+  border:3px solid #69f;
+}
+.tr1{
+  text-align:center;
+  vertical-align:middle;
 }
 
-h3{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 110%;
-  font-style: italic;
-  font-weight: bolder;
-  text-align: center;
-  margin:0 25px;
-  color:#25a561;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color:  #32686a;
-
-}
-
-p{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.8em;
-  text-indent: 3%;
-  text-align: justify;
-  margin: 5px 25px;
-}
-
-ul{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 110%;
-  font-style: italic;
-  color: #25a561
-}
-
-body{
-  background-color: #e6e6e6;
-}
