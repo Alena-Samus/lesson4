@@ -1,16 +1,100 @@
+body{
+  background-image: url("images/k1.gif");
+  background-repeat: repeat;
+  background-position: top;
+}
 .table1{
   width: 800px;
   background-color: #69f;
-  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px;
+  margin:auto auto;
+  border-color: #69f;
 }
 
 .table2{
   width: 800px;
   margin: 0 auto;
-  border:3px solid #69f;
-}
+  background-color: #69f;
+  border-left: 3px solid #69f;
+  border-right: 3px solid #69f;
+  }
+
 .tr1{
   text-align:center;
   vertical-align:middle;
 }
+.tr2{
+  background-color: white;
+  border:1px solid white;
+  border-collapse: collapse;
+}
+.td1{
+  width: 100px;
+}
+.td2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 600; 
+}
 
+img{
+  height: 187px;
+  width: 100px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.p1{
+  margin-top: 0px;
+  margin-bottom: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+.p2{
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-weight: 600;
+  margin-bottom: 10px;
+ 
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+ul{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  line-height: 130%;
+  color: #69f;
+  text-align: left;
+  
+}
+.p3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  font-weight: 600;
+  text-align: justify;
+  color: #69f;
+  letter-spacing: 0.4px;
+  line-height: 130%;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  padding: 15px;
+}
+.tr3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 60%;
+  font-weight: 800;
+  background-color: #69f;
+  text-align: center;
+  letter-spacing: 0.3px;
+  line-height: 110%;
+}
