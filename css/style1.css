@@ -1,10 +1,12 @@
 html{
  height: 100%;
- background: repeating-linear-gradient(45deg, white, white 2px, rgb(226, 223, 223) 2px, rgb(226, 223, 223) 4px);
+ background: repeating-linear-gradient(45deg, rgb(230, 228, 228), rgb(230, 228, 228) 2px, rgb(226, 223, 223) 2px, rgb(226, 223, 223) 4px);
 }
 body{
   margin-top: 0px;
-}
+  }
+
+ 
 .table1{
   width: 800px;
   background-color: #69f;
@@ -19,8 +21,8 @@ body{
   margin: 0 auto;
   padding: 0px;
   background-color: #69f;
-  border-left: 3px solid #69f;
-  border-right: 3px solid #69f;
+  border-left: 1px solid #69f;
+  border-right: 1px solid #69f;
   font-weight: 600;
   }
 
@@ -29,13 +31,15 @@ body{
   border-collapse: collapse;
 }
 .tr2{
-  background-color: white;
+  background-color: rgb(255, 255,255);
   border-collapse: collapse;
   padding: 0px;
  }
 
+
 .td1{
   width: 100px;
+  padding: 0px;
   
 }
 .td2{
@@ -53,7 +57,7 @@ img{
 
 .p1{
   margin-top: 0px;
-  margin-bottom: 27px;
+  margin-bottom: 23px;
   text-align: center;
   white-space: pre-line;
   font-family: Arial, Helvetica, sans-serif;
@@ -65,7 +69,9 @@ img{
   font-family: Arial, Helvetica, sans-serif;
   color:white;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+
+  margin-top: 0px;
  
 }
 h3{
@@ -80,13 +86,13 @@ h4{
   font-size: 120%;
   text-transform: uppercase;
   margin-top: 0;
-  padding-top: 16px;
+  padding-top: 18px;
 }
 ul{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 70%;
-  font-weight: 600;
-  letter-spacing: 0.4px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
   line-height: 130%;
   color: #69f;
   padding:0px;
@@ -100,7 +106,7 @@ ul{
 ul li::before{
   content: "\2022";
   color: #69f;
-  font-size: 20px;
+  font-size: 15px;
   padding-right: 6px;
   margin-left: 16px;
   vertical-align: middle;
@@ -108,17 +114,17 @@ ul li::before{
 
 
 .p3{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 70%;
-  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
   text-align: justify;
   color: #69f;
   letter-spacing: 0.4px;
-  line-height: 130%;
+  line-height: 120%;
   margin: 0px;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
-  padding:7px 15px;
+  padding:9px 15px;
 }
 .tr3{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -134,20 +140,24 @@ ul li::before{
 ol{
   text-align: left;
   color: #69f;
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 80%;
+  font-weight: normal;
   letter-spacing: 0.3px;
   padding-left: 35px;
+  margin-bottom: 12px;
   list-style-position: outside;
  }
 .li{
   padding-left: 6px;
+
 }
 a{
   color: gray;
 }
 .a1{
   text-decoration: none;
+  font-size: 110%;
  }
 
  .a3{
