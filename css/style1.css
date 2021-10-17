@@ -1,7 +1,9 @@
+html{
+ height: 100%;
+ background: repeating-linear-gradient(45deg, white, white 2px, rgb(226, 223, 223) 2px, rgb(226, 223, 223) 4px);
+}
 body{
-  background-image: url("images/k1.gif");
-  background-repeat: repeat;
-  background-position: top;
+  margin-top: 0px;
 }
 .table1{
   width: 800px;
@@ -15,22 +17,26 @@ body{
 .table2{
   width: 800px;
   margin: 0 auto;
+  padding: 0px;
   background-color: #69f;
   border-left: 3px solid #69f;
   border-right: 3px solid #69f;
+  font-weight: 600;
   }
 
 .tr1{
   text-align:center;
-  vertical-align:middle;
+  border-collapse: collapse;
 }
 .tr2{
   background-color: white;
-  border:1px solid white;
   border-collapse: collapse;
-}
+  padding: 0px;
+ }
+
 .td1{
   width: 100px;
+  
 }
 .td2{
   font-family: Arial, Helvetica, sans-serif;
@@ -48,6 +54,8 @@ img{
 .p1{
   margin-top: 0px;
   margin-bottom: 27px;
+  text-align: center;
+  white-space: pre-line;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-weight: 600;
@@ -66,6 +74,14 @@ h3{
   text-transform: uppercase;
   margin-top: 0;
 }
+
+h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 120%;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 16px;
+}
 ul{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 70%;
@@ -73,9 +89,24 @@ ul{
   letter-spacing: 0.4px;
   line-height: 130%;
   color: #69f;
+  padding:0px;
+  margin-left: 8px;
   text-align: left;
-  
+  list-style: none;
+  list-style-position: inside;
+
+  }
+
+ul li::before{
+  content: "\2022";
+  color: #69f;
+  font-size: 20px;
+  padding-right: 6px;
+  margin-left: 16px;
+  vertical-align: middle;
 }
+
+
 .p3{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 70%;
@@ -84,17 +115,43 @@ ul{
   color: #69f;
   letter-spacing: 0.4px;
   line-height: 130%;
-  border-top: 2px solid green;
-  border-bottom: 2px solid green;
-  padding: 15px;
+  margin: 0px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding:7px 15px;
 }
 .tr3{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-size: 60%;
-  font-weight: 800;
+  font-weight: 700;
   background-color: #69f;
   text-align: center;
-  letter-spacing: 0.3px;
+  white-space: pre-line;
+  letter-spacing: 0.2px;
   line-height: 110%;
 }
+ol{
+  text-align: left;
+  color: #69f;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80%;
+  letter-spacing: 0.3px;
+  padding-left: 35px;
+  list-style-position: outside;
+ }
+.li{
+  padding-left: 6px;
+}
+a{
+  color: gray;
+}
+.a1{
+  text-decoration: none;
+ }
+
+ .a3{
+  text-decoration: none;
+  color: white;
+}
+
